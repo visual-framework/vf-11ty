@@ -70,7 +70,10 @@ gulp.task('eleventy', function(done) {
 
   function fractalReadyCallback(fractal) {
     global.fractal = fractal; // save fractal globally
-    elev = require('./node_modules/\@visual-framework/vf-eleventy--extensions/11ty/cmd.js');
+    let elevExtensions = require.resolve('@visual-framework/vf-eleventy--extensions/');
+    elev = require(path.resolve(elevExtensions,'../11ty/eleventy-cmd.js'));
+
+    // elev = require('./node_modules/\@visual-framework/vf-eleventy--extensions/11ty/cmd.js');
     console.log('Done building Fractal');
     buildEleventy();
   }

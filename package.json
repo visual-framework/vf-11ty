@@ -31,7 +31,7 @@
     "@visual-framework/vf-analytics-google": "1.0.4",
     "@visual-framework/vf-banner": "1.9.0",
     "@visual-framework/vf-body": "1.2.0",
-    "@visual-framework/vf-box": "2.3.1",
+    "@visual-framework/vf-box": "2.3.2",
     "@visual-framework/vf-card": "2.6.0",
     "@visual-framework/vf-card-container": "3.1.2",
     "@visual-framework/vf-cluster": "^1.0.2",
